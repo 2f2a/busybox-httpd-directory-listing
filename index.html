@@ -31,7 +31,10 @@ function onFolderClick(a) {
 	}
 }
 function initPage(dirPath) {
-	doGET('/cgi-bin/main.cgi' + dirPath, function (res) {
+	if(dirPath == '/'){
+		dirPath = '';
+	}
+	doGET('/cgi-bin/main.cgi?' + encodeURIComponent(dirPath), function (res) {
 		document.body.innerHTML = '';
 		('../\n' + res).split('\n')
 		.filter(function (a) { return a != ''; })
