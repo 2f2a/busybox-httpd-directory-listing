@@ -2,7 +2,7 @@
 ## Usage
 For example, sharing `image` folder
 ```
-$ git clone git@github.com:HeGanjie/busybox-httpd-directory-listing.git
+$ git clone https://github.com/asp1111/busybox-httpd-directory-listing.git
 $ cp -r busybox-httpd-directory-listing/* image/
 $ cd image/
 $ chmod +x cgi-bin/main.cgi
