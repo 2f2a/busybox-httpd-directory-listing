@@ -5,8 +5,7 @@ For example, sharing `image` folder
 $ git clone https://github.com/asp1111/busybox-httpd-directory-listing.git
 $ cp -r busybox-httpd-directory-listing/* image/
 $ cd image/
-$ chmod +x cgi-bin/main.cgi
-$ chmod +x cgi-bin/decode.sh
+$ chmod +x cgi-bin/index.cgi
 $ busybox httpd -fvvvp 8080
 ```
 then open the link http://httpdhost:8080
