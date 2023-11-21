@@ -16,7 +16,6 @@ cat << EOH
 <body>
 
 <div class="container">
-  <h2>Basic List Group</h2>
   <div id="list" class="list-group">
 EOH
 
