@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env -S busybox sh
 echo -en "Content-Type: text/html\r\n\r\n"
 
 cat << EOH
